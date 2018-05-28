@@ -40,7 +40,6 @@ public:
     bool empty();
     void clear();
     string &insert(size_t index, const char *str);
-    void erase(size_t index);
     void push_back(char c);
     char pop_back();
     string &append(const string &str);
