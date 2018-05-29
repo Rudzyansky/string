@@ -1,6 +1,8 @@
 #include <iostream>
 #include "string.h"
 
+using rudzyansky::string;
+
 int main() {
     string str = "hello ";
     str += str + str + *string("world") + ' ' + "from prog " + str;
